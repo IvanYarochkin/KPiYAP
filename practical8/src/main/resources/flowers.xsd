@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema version="1.0"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.dei.isep.ipp.pt/Flowers"
+        xmlns:tns="http://www.dei.isep.ipp.pt/Flowers"
+        elementFormDefault="qualified">
+
+    <element name="flowers">
+        <complexType>
+            <sequence>
+                <element ref="tns:flower" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="flower" type="tns:flower" abstract="true"/>
+    <element name="cut-flower" type="tns:cut-flower" substitutionGroup="tns:flower"/>
+    <element name="garden-flower" type="tns:garden-flower" substitutionGroup="tns:flower"/>
+
+    <complexType name="flower">
+        <sequence>
+            <element name="name" type="tns:name"/>
+            <element name="origin" type="tns:origin"/>
+            <element name="visual-parameters" type="tns:visual-parameters"/>
+            <element name="multiplying" type="tns:multiplying"/>
+        </sequence>
+        <attribute name="id" type="ID" use="optional"/>
+    </complexType>
+
+    <complexType name="cut-flower">
+        <complexContent>
+            <extension base="tns:flower">
+                <attribute name="freshness" default="0">
+                    <simpleType>
+                        <restriction base="nonNegativeInteger">
+                            <pattern value="\d{1,2}0?"/>
+                        </restriction>
+                    </simpleType>
+                </attribute>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="garden-flower">
+        <complexContent>
+            <extension base="tns:flower">
+                <sequence>
+                    <element name="growing-tips" type="tns:growing-tips"/>
+                </sequence>
+                <attribute name="soil" use="optional" default="unpaved">
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="podzolic"/>
+                            <enumeration value="unpaved"/>
+                            <enumeration value="sod-podzolic"/>
+                        </restriction>
+                    </simpleType>
+                </attribute>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="visual-parameters">
+        <sequence>
+            <element name="stem-color" type="tns:color"/>
+            <element name="leaf-color" type="tns:color"/>
+            <element name="flower-height" type="tns:flower-height"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="growing-tips">
+        <sequence>
+            <element name="temperature" type="tns:temperature"/>
+            <element name="lighting" type="boolean"/>
+            <element name="watering" type="tns:watering"/>
+        </sequence>
+    </complexType>
+
+    <simpleType name="name">
+        <restriction base="string">
+            <pattern value="\w{3,15}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="origin">
+        <restriction base="string">
+            <pattern value="\w{3}(\w|\d){0,20}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="multiplying">
+        <restriction base="string">
+            <enumeration value="leaf"/>
+            <enumeration value="stalk"/>
+            <enumeration value="seed"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="flower-height">
+        <restriction base="double">
+            <pattern value="\d{1,5}(.\d{1,3})?"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="color">
+        <restriction base="string">
+            <pattern value="\w{3,12}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="temperature">
+        <restriction base="double">
+            <pattern value="\d{1,3}(.\d{1,3})?"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="watering">
+        <restriction base="double">
+            <pattern value="\d{1,4}(.\d{1,4})?"/>
+        </restriction>
+    </simpleType>
+</schema>

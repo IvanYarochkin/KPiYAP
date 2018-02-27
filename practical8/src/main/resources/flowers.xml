@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flowers xmlns="http://www.dei.isep.ipp.pt/Flowers">
+    <cut-flower id="ID-1" freshness="70">
+        <name>rose</name>
+        <origin>Belarus</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>30</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <garden-flower id="ID-2" soil="unpaved">
+        <name>chrysanthemum</name>
+        <origin>Germany</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>pink</leaf-color>
+            <flower-height>38</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>30</temperature>
+            <lighting>true</lighting>
+            <watering>300</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-3" soil="podzolic">
+        <name>rose</name>
+        <origin>Russia</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>yellow</leaf-color>
+            <flower-height>50</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>true</lighting>
+            <watering>350</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-4" soil="sod-podzolic">
+        <name>orchid</name>
+        <origin>Belarus</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>blue</leaf-color>
+            <flower-height>90</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>34.3</temperature>
+            <lighting>true</lighting>
+            <watering>274.5</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-5" soil="sod-podzolic">
+        <name>orchid</name>
+        <origin>USA</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>purple</leaf-color>
+            <flower-height>77</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>35.2</temperature>
+            <lighting>true</lighting>
+            <watering>284.5</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <cut-flower id="ID-6">
+        <name>rose</name>
+        <origin>Russia</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>red</leaf-color>
+            <flower-height>100</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <garden-flower id="ID-7">
+        <name>gladiolus</name>
+        <origin>Belgium</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>pink</leaf-color>
+            <flower-height>40</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>33</temperature>
+            <lighting>true</lighting>
+            <watering>230</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-8" soil="unpaved">
+        <name>gladiolus</name>
+        <origin>Germany</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>57</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>32</temperature>
+            <lighting>true</lighting>
+            <watering>250</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-9" soil="sod-podzolic">
+        <name>orchid</name>
+        <origin>Belarus</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>65</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>32.4</temperature>
+            <lighting>true</lighting>
+            <watering>290</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <garden-flower id="ID-10" soil="unpaved">
+        <name>chrysanthemum</name>
+        <origin>Russia</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>49</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>35</temperature>
+            <lighting>true</lighting>
+            <watering>315.3</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <cut-flower id="ID-11" freshness="95">
+        <name>tulip</name>
+        <origin>Canada</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>yellow</leaf-color>
+            <flower-height>65</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <cut-flower id="ID-12" freshness="76">
+        <name>tulip</name>
+        <origin>USA</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>red</leaf-color>
+            <flower-height>70</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <garden-flower id="ID-13" soil="unpaved">
+        <name>gladiolus</name>
+        <origin>Ukraine</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>63.3</flower-height>
+        </visual-parameters>
+        <multiplying>stalk</multiplying>
+        <growing-tips>
+            <temperature>35.6</temperature>
+            <lighting>true</lighting>
+            <watering>263.4</watering>
+        </growing-tips>
+    </garden-flower>
+
+    <cut-flower id="ID-14" freshness="74">
+        <name>lily</name>
+        <origin>Canada</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>white</leaf-color>
+            <flower-height>48</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <cut-flower id="ID-15" freshness="36">
+        <name>iris</name>
+        <origin>Belarus</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>yellow</leaf-color>
+            <flower-height>30</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+
+    <cut-flower id="ID-16" freshness="54">
+        <name>iris</name>
+        <origin>USA</origin>
+        <visual-parameters>
+            <stem-color>green</stem-color>
+            <leaf-color>blue</leaf-color>
+            <flower-height>35</flower-height>
+        </visual-parameters>
+        <multiplying>seed</multiplying>
+    </cut-flower>
+</flowers>
+

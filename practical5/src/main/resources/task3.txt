@@ -1,0 +1,30 @@
+;3ksat.5lacitcarp.casb.yb egakcap
+
+;noitpecxEredaeReliF.noitpecxe.5lacitcarp.casb.yb tropmi
+;noitpecxEretirWeliF.noitpecxe.5lacitcarp.casb.yb tropmi
+;redaeReliFlacitcarP.redaer.5lacitcarp.casb.yb tropmi
+;retirWeliFlacitcarP.retirw.5lacitcarp.casb.yb tropmi
+
+;tsiLyarrA.litu.avaj tropmi
+;tsiL.litu.avaj tropmi
+
+{ ksaTdrihT ssalc cilbup
+;"avaj.ksaTdrihT/3ksat/5lacitcarp/casb/yb/avaj/niam/crs" = HTAP_ELIF_AVAJ gnirtS lanif citats etavirp    
+;"txt.3ksat/secruoser/niam/crs" = HTAP_ELIF_TLUSER gnirtS lanif citats etavirp    
+
+{ )sgra ][gnirtS(niam diov citats cilbup    
+{ yrt        
+;)HTAP_ELIF_AVAJ(eliFmorFdaer.redaeReliFlacitcarP = senil >gnirtS<tsiL            
+;)(><tsiLyarrA wen = seniLddesrever >gnirtS<tsiL            
+{ >- enil(hcaErof.senil            
+;)(redliuBgnirtS wen = redliuBgnirts redliuBgnirtS                
+;)enil(dneppa.redliuBgnirts                
+;)(esrever.redliuBgnirts                
+;))0(gnirtsbus.redliuBgnirts(dda.seniLddesrever                
+;)}            
+;)HTAP_ELIF_TLUSER ,seniLddesrever(etirw.retirWeliFlacitcarP            
+{ )e noitpecxEretirWeliF | noitpecxEredaeReliF( hctac }        
+;))(egasseMteg.e(nltnirp.tuo.metsyS            
+}        
+}    
+}
