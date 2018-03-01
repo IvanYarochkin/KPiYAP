@@ -15,14 +15,14 @@ public class ThirdTask {
     public static void main(String[] args) {
         try {
             List<String> lines = PracticalFileReader.readFromFile(JAVA_FILE_PATH);
-            List<String> reverseddLines = new ArrayList<>();
+            List<String> reversedLines = new ArrayList<>();
             lines.forEach(line -> {
                 StringBuilder stringBuilder = new StringBuilder();
                 stringBuilder.append(line);
                 stringBuilder.reverse();
-                reverseddLines.add(stringBuilder.substring(0));
+                reversedLines.add(stringBuilder.substring(0));
             });
-            PracticalFileWriter.write(reverseddLines, RESULT_FILE_PATH);
+            PracticalFileWriter.write(reversedLines, RESULT_FILE_PATH);
         } catch (FileReaderException | FileWriterException e) {
             System.out.println(e.getMessage());
         }

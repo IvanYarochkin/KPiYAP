@@ -19,14 +19,14 @@ public class SecondTask {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.println("array["+i+"]["+j+"] = " + array[i][j]);
+                System.out.println("array[" + i + "][" + j + "] = " + array[i][j]);
             }
         }
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 array[i][j] = Math.round(array[i][j]);
-                System.out.println("array["+i+"]["+j+"] = " + array[i][j]);
+                System.out.println("array[" + i + "][" + j + "] = " + array[i][j]);
             }
         }
 

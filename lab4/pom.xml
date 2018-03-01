@@ -15,6 +15,7 @@
         <ibatis2.sqlmap>2.1.7.597</ibatis2.sqlmap>
 
         <!--plugins-->
+        <maven-resources-plugin.version>3.0.2</maven-resources-plugin.version>
         <directory-maven-plugin.version>0.2</directory-maven-plugin.version>
     </properties>
 

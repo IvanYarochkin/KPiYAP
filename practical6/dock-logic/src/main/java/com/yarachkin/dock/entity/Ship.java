@@ -28,7 +28,7 @@ public class Ship extends Thread {
     public int loadInShipContainers(int containersCounts) {
         int loadedContainers;
         if ( capacity - boardContainersCounts < containersCounts &&
-                capacity - boardContainersCounts < loadingContainersCounts) {
+                capacity - boardContainersCounts < loadingContainersCounts ) {
             loadedContainers = capacity - boardContainersCounts;
             boardContainersCounts = capacity;
             loadingContainersCounts -= loadedContainers;
